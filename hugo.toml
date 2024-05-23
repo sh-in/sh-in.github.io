@@ -1,5 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://github.com/sh-in/sh-in.github.io'
 languageCode = 'ja'
 title = 'Shin'
 theme = "mini"
 publishDir = "docs"
+
+paginate = 3
+
+[social]
+    github="https://github.com/sh-in"
+
+[params]
+    author="Shin"
+    bio="Master Student"
+    description="My Blog"
+    showPowerBy=false
