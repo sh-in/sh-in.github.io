@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja'
+title = 'Shin'
+theme = "mini"
+publishDir = "docs"
