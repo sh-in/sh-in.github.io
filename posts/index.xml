@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shin</title>
-    <link>http://localhost:1313/sh-in/sh-in.github.io/posts/</link>
+    <link>http://localhost:1313/sh-in.github.io/posts/</link>
     <description>Recent content in Posts on Shin</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 23 Jul 2024 08:29:54 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/sh-in/sh-in.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sh-in.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログ開設</title>
-      <link>http://localhost:1313/sh-in/sh-in.github.io/posts/20240723-blog-guide/</link>
+      <link>http://localhost:1313/sh-in.github.io/posts/20240723-blog-guide/</link>
       <pubDate>Tue, 23 Jul 2024 08:29:54 +0900</pubDate>
-      <guid>http://localhost:1313/sh-in/sh-in.github.io/posts/20240723-blog-guide/</guid>
+      <guid>http://localhost:1313/sh-in.github.io/posts/20240723-blog-guide/</guid>
       <description>ブログ作りました!! 🔗HugoとGitHub Pagesを使ってます&#xA;Blog作成手順 🔗 Hugoのインストール HugoをChocolateyを使ってインストール&#xA;choco install hugo&#xA;Hugoのプロジェクト作成(プロジェクトディレクトリを作成)&#xA;hugo new site &amp;lt;プロジェクトディレクトリ&amp;gt;&#xA;テーマの導入 Hugo Themesから好きなテンプレートを選んでください&#xA;このページではminiを使ってます&#xA;以下miniをテーマとして利用することを想定して進めますので, 適宜読み替えてください&#xA;git submoduleで追加&#xA;cd &amp;lt;プロジェクトディレクトリ&amp;gt; git init git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini ページの作成&#xA;テーマ内のexampleSiteディレクトリをプロジェクトディレクトリにコピー&#xA;config.yamlに以下を追加&#xA;theme: mini&#xA;起動&#xA;ローカルでテストサーバーを起動&#xA;hugo server&#xA;http://localhost:1313で結果を確認できます&#xA;GitHub Pagesで公開&#xA;publicディレクトリをリポジトリにpush</description>
     </item>
   </channel>
