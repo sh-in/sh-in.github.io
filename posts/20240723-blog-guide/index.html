@@ -17,16 +17,17 @@ hugo new site &lt;プロジェクトディレクトリ&gt;
 git submoduleで追加
 cd &lt;プロジェクトディレクトリ&gt; git init git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini ページの作成
 テーマ内のexampleSiteディレクトリをプロジェクトディレクトリにコピー
-config.yamlに以下を追加
-theme: mini
+hugo.tomlに以下を追加
+theme=&quot;mini&quot;
 起動
 ローカルでテストサーバーを起動
 hugo server
 http://localhost:1313で結果を確認できます
-GitHub Pagesで公開
+サイトの設定
+hugo.tomlでサイトの設定をする
+baseURL = &#34;https://example.com/&#34; # 自分のサイトのURL languageCode = &#34;ja&#34; # 言語設定 title = &#34;My New Hugo Site&#34; # サイトのタイトル theme = &#34;mini&#34; # 利用しているテーマ GitHub Pagesで公開
 publicディレクトリにプロジェクトを出力
-hugo
-publicディレクトリをリポジトリにpush">
+hugo">
 <meta name="generator" content="Hugo 0.125.7">
 
 
@@ -75,7 +76,7 @@ publicディレクトリをリポジトリにpush">
           ·
         </span>
         <span>
-          47 words
+          77 words
         </span>
         <span class="split">
           ·
@@ -116,8 +117,8 @@ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 <li>
 <p>ページの作成<br>
 テーマ内のexampleSiteディレクトリをプロジェクトディレクトリにコピー<br>
-<code>config.yaml</code>に以下を追加<br>
-<code>theme: mini</code></p>
+<code>hugo.toml</code>に以下を追加<br>
+<code>theme=&quot;mini&quot;</code></p>
 </li>
 <li>
 <p>起動<br>
@@ -126,15 +127,31 @@ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 <a href="http://localhost:1313" target="_blank" rel="noopener">http://localhost:1313</a>で結果を確認できます</p>
 </li>
 <li>
-<p>GitHub Pagesで公開<br>
-publicディレクトリにプロジェクトを出力<br>
-<code>hugo</code><br>
-publicディレクトリをリポジトリにpush</p>
+<p>サイトの設定<br>
+<code>hugo.toml</code>でサイトの設定をする</p>
 </li>
 </ol>
+<pre tabindex="0"><code>baseURL = &#34;https://example.com/&#34; # 自分のサイトのURL
+languageCode = &#34;ja&#34; # 言語設定
+title = &#34;My New Hugo Site&#34; # サイトのタイトル
+theme = &#34;mini&#34; # 利用しているテーマ
+</code></pre><ol start="7">
+<li>GitHub Pagesで公開<br>
+publicディレクトリにプロジェクトを出力<br>
+<code>hugo</code><br>
+publicディレクトリをリポジトリにpush</li>
+</ol>
+<h2 id="新しいコンテンツの作成方法">新しいコンテンツの作成方法 <a href="#%e6%96%b0%e3%81%97%e3%81%84%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" class="anchor">🔗</a></h2><p>新しいページの作成<br>
+<code>hugo new content content/posts/my-first-post.md</code></p>
 
     </div>
 
+    
+        <div class="tags">
+            
+                <a href="https://sh-in.github.io/tags/blog">blog</a>
+            
+        </div>
     
     
     

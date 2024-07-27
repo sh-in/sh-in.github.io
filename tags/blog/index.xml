@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shin</title>
-    <link>https://sh-in.github.io/</link>
-    <description>Recent content on Shin</description>
+    <title>Blog on Shin</title>
+    <link>https://sh-in.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Shin</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 23 Jul 2024 08:29:54 +0900</lastBuildDate>
-    <atom:link href="https://sh-in.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sh-in.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログ開設</title>
       <link>https://sh-in.github.io/posts/20240723-blog-guide/</link>
