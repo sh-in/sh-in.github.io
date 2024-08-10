@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ブログ開設 | Shin</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="ブログ作りました!! 🔗HugoとGitHub Pagesを使ってます
+Blog作成手順 🔗 Hugoのインストール HugoをChocolateyを使ってインストール
+choco install hugo
+Hugoのプロジェクト作成(プロジェクトディレクトリを作成)
+hugo new site &lt;プロジェクトディレクトリ&gt;
+テーマの導入 Hugo Themesから好きなテンプレートを選んでください
+このページではminiを使ってます
+以下miniをテーマとして利用することを想定して進めますので, 適宜読み替えてください
+git submoduleで追加
+cd &lt;プロジェクトディレクトリ&gt; git init git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini ページの作成
+テーマ内のexampleSiteディレクトリをプロジェクトディレクトリにコピー
+hugo.tomlに以下を追加
+theme=&quot;mini&quot;
+起動
+ローカルでテストサーバーを起動
+hugo server
+http://localhost:1313で結果を確認できます
+サイトの設定
+hugo.tomlでサイトの設定をする
+baseURL = &#34;https://example.com/&#34; # 自分のサイトのURL languageCode = &#34;ja&#34; # 言語設定 title = &#34;My New Hugo Site&#34; # サイトのタイトル theme = &#34;mini&#34; # 利用しているテーマ GitHub Pagesで公開
+publicディレクトリにプロジェクトを出力
+hugo">
+<meta name="generator" content="Hugo 0.131.0">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/fav.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">ブログ開設</h1>
+
+    <div class="tip">
+        <time datetime="2024-07-23 08:29:54 &#43;0900 JST">Jul 23, 2024</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          77 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <h1 id="ブログ作りました">ブログ作りました!! <a href="#%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f" class="anchor">🔗</a></h1><p><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>とGitHub Pagesを使ってます</p>
+<h2 id="blog作成手順">Blog作成手順 <a href="#blog%e4%bd%9c%e6%88%90%e6%89%8b%e9%a0%86" class="anchor">🔗</a></h2><ol>
+<li>
+<p>Hugoのインストール
+Hugoを<a href="https://chocolatey.org/" target="_blank" rel="noopener">Chocolatey</a>を使ってインストール<br>
+<code>choco install hugo</code></p>
+</li>
+<li>
+<p>Hugoのプロジェクト作成(プロジェクトディレクトリを作成)<br>
+<code>hugo new site &lt;プロジェクトディレクトリ&gt;</code></p>
+</li>
+<li>
+<p>テーマの導入
+<a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Hugo Themes</a>から好きなテンプレートを選んでください<br>
+このページでは<a href="https://themes.gohugo.io/themes/hugo-theme-cactus-plus/" target="_blank" rel="noopener">mini</a>を使ってます<br>
+以下miniをテーマとして利用することを想定して進めますので, 適宜読み替えてください<br>
+git submoduleで追加</p>
+</li>
+</ol>
+<pre tabindex="0"><code>cd &lt;プロジェクトディレクトリ&gt;
+git init
+git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+</code></pre><ol start="4">
+<li>
+<p>ページの作成<br>
+テーマ内のexampleSiteディレクトリをプロジェクトディレクトリにコピー<br>
+<code>hugo.toml</code>に以下を追加<br>
+<code>theme=&quot;mini&quot;</code></p>
+</li>
+<li>
+<p>起動<br>
+ローカルでテストサーバーを起動<br>
+<code>hugo server</code><br>
+<a href="http://localhost:1313" target="_blank" rel="noopener">http://localhost:1313</a>で結果を確認できます</p>
+</li>
+<li>
+<p>サイトの設定<br>
+<code>hugo.toml</code>でサイトの設定をする</p>
+</li>
+</ol>
+<pre tabindex="0"><code>baseURL = &#34;https://example.com/&#34; # 自分のサイトのURL
+languageCode = &#34;ja&#34; # 言語設定
+title = &#34;My New Hugo Site&#34; # サイトのタイトル
+theme = &#34;mini&#34; # 利用しているテーマ
+</code></pre><ol start="7">
+<li>GitHub Pagesで公開<br>
+publicディレクトリにプロジェクトを出力<br>
+<code>hugo</code><br>
+publicディレクトリをリポジトリにpush</li>
+</ol>
+<h2 id="新しいコンテンツの作成方法">新しいコンテンツの作成方法 <a href="#%e6%96%b0%e3%81%97%e3%81%84%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" class="anchor">🔗</a></h2><p>新しいページの作成<br>
+<code>hugo new content content/posts/my-first-post.md</code></p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="https://sh-in.github.io/tags/blog">blog</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://github.com/sh-in" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28"  viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>Github</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social-Icons---Rounded-Black" transform="translate(-264.000000, -939.000000)">
+            <g id="Github" transform="translate(264.000000, 939.000000)">
+                <path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" id="Rounded" fill="#bbbbbb"></path>
+                <path d="M35.9985,13 C22.746,13 12,23.7870921 12,37.096644 C12,47.7406712 18.876,56.7718301 28.4145,59.9584121 C29.6145,60.1797862 30.0525,59.4358488 30.0525,58.7973276 C30.0525,58.2250681 30.0315,56.7100863 30.0195,54.6996482 C23.343,56.1558981 21.9345,51.4693938 21.9345,51.4693938 C20.844,48.6864054 19.2705,47.9454799 19.2705,47.9454799 C17.091,46.4500754 19.4355,46.4801943 19.4355,46.4801943 C21.843,46.6503662 23.1105,48.9634994 23.1105,48.9634994 C25.2525,52.6455377 28.728,51.5823398 30.096,50.9649018 C30.3135,49.4077535 30.9345,48.3460615 31.62,47.7436831 C26.2905,47.1352808 20.688,45.0691228 20.688,35.8361671 C20.688,33.2052792 21.6225,31.0547881 23.1585,29.3696344 C22.911,28.7597262 22.0875,26.3110578 23.3925,22.9934585 C23.3925,22.9934585 25.4085,22.3459017 29.9925,25.4632101 C31.908,24.9285993 33.96,24.6620468 36.0015,24.6515052 C38.04,24.6620468 40.0935,24.9285993 42.0105,25.4632101 C46.5915,22.3459017 48.603,22.9934585 48.603,22.9934585 C49.9125,26.3110578 49.089,28.7597262 48.8415,29.3696344 C50.3805,31.0547881 51.309,33.2052792 51.309,35.8361671 C51.309,45.0917119 45.6975,47.1292571 40.3515,47.7256117 C41.2125,48.4695491 41.9805,49.9393525 41.9805,52.1877301 C41.9805,55.4089489 41.9505,58.0067059 41.9505,58.7973276 C41.9505,59.4418726 42.3825,60.1918338 43.6005,59.9554002 C53.13,56.7627944 60,47.7376593 60,37.096644 C60,23.7870921 49.254,13 35.9985,13" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+    </a>
+
+    <a class="symbol" href="https://x.com/shinnn0722" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2024 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       Shin
+    
+    </div>
+
+    
+</footer>
+
+
+
+  </body>
+</html>
