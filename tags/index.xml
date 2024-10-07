@@ -11,14 +11,18 @@
     <item>
       <title>Research</title>
       <link>https://sh-in.github.io/tags/research/</link>
+<<<<<<< HEAD
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+=======
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+>>>>>>> b9b7d9b7b6afd445db30fb3effdea317f158be1c
       <guid>https://sh-in.github.io/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
       <link>https://sh-in.github.io/tags/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jul 2024 08:29:54 +0900</pubDate>
       <guid>https://sh-in.github.io/tags/blog/</guid>
       <description></description>
     </item>
