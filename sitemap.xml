@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sh-in.github.io/tags/intern/</loc>
+    <lastmod>2024-10-07T18:26:39+09:00</lastmod>
+  </url><url>
+    <loc>https://sh-in.github.io/tags/job-hunting/</loc>
+    <lastmod>2024-10-07T18:26:39+09:00</lastmod>
+  </url><url>
     <loc>https://sh-in.github.io/posts/</loc>
     <lastmod>2024-10-07T18:26:39+09:00</lastmod>
   </url><url>
     <loc>https://sh-in.github.io/</loc>
+    <lastmod>2024-10-07T18:26:39+09:00</lastmod>
+  </url><url>
+    <loc>https://sh-in.github.io/tags/</loc>
+    <lastmod>2024-10-07T18:26:39+09:00</lastmod>
+  </url><url>
+    <loc>https://sh-in.github.io/posts/20241007-summer-intern/</loc>
     <lastmod>2024-10-07T18:26:39+09:00</lastmod>
   </url><url>
     <loc>https://sh-in.github.io/research/20240806_miru2024/</loc>
@@ -15,9 +27,6 @@
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sh-in.github.io/research/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sh-in.github.io/tags/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sh-in.github.io/about/</loc>
